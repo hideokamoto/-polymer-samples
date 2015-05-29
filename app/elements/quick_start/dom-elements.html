@@ -1,0 +1,19 @@
+<dom-module id="dom-element">
+  <template>
+    <picture-frame>
+      <img src="http://placehold.jp/3d4070/ffffff/600x250.png"
+            width="600px"/><br/>
+      Image Text
+    </picture-frame>
+    <p>I'm a DOM element. This is my local DOM!</p>
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: "dom-element",
+    ready: function() {
+      this.innerHTML += "<p>I'm a proto-element. Check out my dom content!</p>"
+    }
+  });
+</script>
