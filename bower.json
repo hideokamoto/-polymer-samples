@@ -1,0 +1,25 @@
+{
+  "name": "polymer",
+  "version": "1.0.0",
+  "authors": [
+    "hideokamoto <kokkoku214@gmail.com>"
+  ],
+  "description": "Polymer 1.0 Sample apps",
+  "main": "index.html",
+  "keywords": [
+    "polymer"
+  ],
+  "license": "BSD",
+  "homepage": "http://wp-kyoto.net/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}
