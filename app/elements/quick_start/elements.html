@@ -1,6 +1,27 @@
 <link rel="import" href="../../../../bower_components/polymer/polymer.html">
 
+<!-- Iron Components -->
+<link rel="import"
+      href="/bower_components/iron-input/iron-input.html">
+
 <!-- Created Elements -->
 <link rel="import" href="proto-elements.html">
 <link rel="import" href="dom-elements.html">
 <link rel="import" href="picture-frame.html">
+<link rel="import" href="name-tag.html">
+<link rel="import" href="configurable-name-tag.html">
+
+
+<dom-module id="quick-start-element">
+  <template>
+    <proto-element></proto-element>
+    <dom-element></dom-element>
+    <configurable-name-tag></configurable-name-tag>
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: "quick-start-element",
+  });
+</script>
