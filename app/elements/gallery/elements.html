@@ -1,0 +1,29 @@
+<!-- Iron Components -->
+<link rel="import"
+      href="/bower_components/neon-animation/neon-animation.html">
+
+<!-- Created Elements -->
+
+
+<dom-module id="gallery-content">
+  <template>
+    <neon-animated-pages id="pages">
+      <animated-grid>
+        <div class="tile">
+          1
+        </div>
+        <div class="tile">
+          2
+        </div>
+      </animated-grid>
+      <fullsize-page-with-card>
+      </fullsize-page-with-card>
+    </neon-animated-pages>
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: "gallery-content",
+  });
+</script>

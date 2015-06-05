@@ -237,6 +237,7 @@ gulp.task('bs-reload', function () {
 
 // Watch scss AND html files, doing different things with each.
 gulp.task('default', ['browser-sync'], function () {
+    gulp.watch("app/elements/*.html", ['bs-reload']);
     gulp.watch("app/elements/**/*.html", ['bs-reload']);
     gulp.watch("*.html", ['bs-reload']);
     gulp.watch("app/scripts/*.js", ['bs-reload']);

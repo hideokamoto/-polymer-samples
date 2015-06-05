@@ -22,6 +22,12 @@
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
     "iron-ajax": "PolymerElements/iron-ajax#^1.0.0",
-    "iron-localstorage": "PolymerElements/iron-localstorage#^1.0.0"
+    "iron-localstorage": "PolymerElements/iron-localstorage#^1.0.0",
+    "iron-image": "PolymerElements/iron-image#^1.0.0",
+    "iron-jsonp-library": "PolymerElements/iron-jsonp-library#^1.0.0",
+    "iron-media-query": "PolymerElements/iron-media-query#^1.0.0",
+    "neon-animation": "PolymerElements/neon-animation#^1.0.0",
+    "paper-header-panel": "PolymerElements/paper-header-panel#^1.0.0",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^1.0.0"
   }
 }
