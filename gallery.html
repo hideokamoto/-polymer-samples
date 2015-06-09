@@ -4,22 +4,19 @@
     <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
     <link rel="import" href="app/elements/layout-elements.html">
     <link rel="import" href="app/elements/gallery/elements.html">
+    <link rel="import" href="app/elements/css-wapuu/css-wapuu.html">
   </head>
   <body>
     <style>
     body{margin:0;}
     </style>
     <paper-drawer-panel>
-      <div drawer>
-        <div>aaa</div>
-        <div>aaa</div>
-        <div>aaa</div>
-        <div>aaa</div>
-      </div>
+      <layout-sidepanel drawer></layout-sidepanel>
       <paper-header-panel class="flex" mode="waterfall-tall" main>
         <paper-toolbar>
           <layout-header></layout-header>
         </paper-toolbar>
+        <css-wapuu></css-wapuu>
         <gallery-content></gallery-content>
       </paper-header-panel>
     </paper-drawer-panel>
