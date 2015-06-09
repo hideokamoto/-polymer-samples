@@ -1,7 +1,17 @@
 <dom-module id="layout-sidepanel">
   <template>
-    Now Making
+    <paper-item>Menu</paper-item>
+    <paper-menu>
+      <paper-item><a href="/index.html" flex>Index</a></paper-item>
+      <paper-item><a href="/gallery.html" flex>Gallery</a></paper-item>
+      <paper-item><a href="/csswapuu.html" flex>CSS Wapuu</a></paper-item>
+    </paper-menu>
   </template>
+  <style>
+[flex] {
+  @apply(--layout-flex);
+}
+  </style>
 </dom-module>
 
 <script>
